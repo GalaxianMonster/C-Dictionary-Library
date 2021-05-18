@@ -8,6 +8,9 @@
 
 #ifndef DICT_H
 #define DICT_H
+
+#include <stdlib.h>
+
 typedef struct dict_item {
     void* key;
     void* value;
