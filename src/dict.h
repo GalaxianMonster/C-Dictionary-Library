@@ -94,4 +94,9 @@ void deletekey(void* key, dict* dict_p)
         }
     }
 }
+
+void free_dict(dict* dict_p)
+{
+    free(dict_p->items);
+}
 #endif
