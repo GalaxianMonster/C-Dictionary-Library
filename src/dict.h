@@ -2,7 +2,7 @@
  *
  *     File: dict.h
  *     Description: library for making dictionaries
- *     License: GNU General Public License v3
+ *     License: MIT
  *
  */
 
